@@ -7,7 +7,7 @@ function App() {
   const [email,setEmail] = useState("");
   const [password,setPassword] = useState("");
   const [result,setResult] = useState("");
-  axios.defaults.baseURL = "http://localhost:3500";
+  axios.defaults.baseURL = "https://new-repo-eosin.vercel.app";
 
   // useEffect(() => {
   //   const getName = async () => {
