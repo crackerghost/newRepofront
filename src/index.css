@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+p{
+  color:white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
